@@ -11,5 +11,4 @@ packages:
  - packages.x86_64
 customize_airootfs_pre:
  - accept_nonfree.sh
- - no_recommend.sh
 repository: https://depo.pardus.org.tr/pardus
