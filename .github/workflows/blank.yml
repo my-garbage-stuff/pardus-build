@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: build
+        run: |
+          git clone https://gitlab.com/tearch-linux/applications-and-tools/teaiso -b rw
+          cd teaiso
+          sudo apt install xorriso grub-pc-bin grub-efi mtools make python3 \
+              dosfstools e2fsprogs squashfs-tools python3-yaml \
+              gcc wget curl unzip xz-utils zstd -y
+          sudo make
+          exec sudo ./mkteaiso --profile=../pardus --output=/output/ --debug 2>&1
+
+
+      - uses: actions/upload-artifact@v2
+        with:
+            name: output
+            path: /output/*
+
+
