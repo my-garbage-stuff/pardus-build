@@ -1,0 +1,49 @@
+#bootloader and gnupg
+grub-pc-bin
+grub-efi
+gnupg
+#kernel
+linux-image-amd64
+#firmwares
+zd1211-firmware
+firmware-linux
+firmware-netxen
+firmware-ralink
+firmware-realtek
+firmware-iwlwifi
+firmware-intelwimax
+firmware-ipw2x00
+firmware-atheros
+firmware-bnx2
+firmware-libertas
+bluez-firmware
+firmware-brcm80211
+firmware-amd-graphics
+firmware-cavium
+firmware-intel-sound
+firmware-misc-nonfree
+firmware-myricom
+firmware-qlogic
+firmware-samsung
+firmware-siano
+firmware-sof-signed
+firmware-ti-connectivity
+#desktop stuff
+pardus-xfce-settings
+lsb-release
+network-manager-gnome
+pardus-dolunay-icon-theme
+pardus-dolunay-grub-theme
+xfce4-whiskermenu-plugin
+pardus-welcome
+pardus-about
+xserver-xorg
+lightdm
+xinit
+xfce4
+firefox-esr
+xfce4-terminal
+#live stuff
+pardus-installer
+#Please remove this garbage :(
+usrmerge
