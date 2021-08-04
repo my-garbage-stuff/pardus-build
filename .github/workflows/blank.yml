@@ -18,7 +18,7 @@ jobs:
           cd teaiso
           sudo apt install xorriso grub-pc-bin grub-efi mtools make python3 \
               dosfstools e2fsprogs squashfs-tools python3-yaml \
-              gcc wget curl unzip xz-utils zstd -y
+              gcc wget curl unzip xz-utils zstd debootstrap -y
           sudo make
           ln -s sid /usr/share/debootstrap/scripts/yirmibir
           sudo ./mkteaiso --profile=../pardus --output=/output/ --debug 2>&1
