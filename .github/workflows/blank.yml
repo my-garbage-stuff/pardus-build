@@ -20,7 +20,7 @@ jobs:
               dosfstools e2fsprogs squashfs-tools python3-yaml \
               gcc wget curl unzip xz-utils zstd debootstrap -y
           sudo make
-          ln -s sid /usr/share/debootstrap/scripts/yirmibir
+          sudo ln -s sid /usr/share/debootstrap/scripts/yirmibir
           sudo ./mkteaiso --profile=../pardus --output=/output/ --debug 2>&1
 
 
