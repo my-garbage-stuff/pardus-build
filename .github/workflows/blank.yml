@@ -24,9 +24,15 @@ jobs:
           sudo ./mkteaiso --profile=../pardus --output=/output/ --debug 2>&1
 
 
-      - uses: actions/upload-artifact@v2
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-            name: output
-            path: /output/*
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Auto build"
+          files: |
+            /output/*
+
+
 
 
