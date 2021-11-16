@@ -29,6 +29,6 @@ firmware-siano
 firmware-sof-signed
 firmware-ti-connectivity
 #desktop stuff
-pardus-xfce-desktop
+pardus-gnome-desktop
 #live stuff
 pardus-installer
