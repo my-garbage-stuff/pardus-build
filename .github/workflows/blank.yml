@@ -22,10 +22,7 @@ jobs:
           sudo make && sudo make install
           sudo ln -s sid /usr/share/debootstrap/scripts/yirmibir
           cd ../
-          git clone https://github.com/my-garbage-stuff/pardus-build -b main xfce
-          git clone https://github.com/my-garbage-stuff/pardus-build -b gnome gnome
-          sudo mkteaiso --profile=./xfce --output=/output/ --debug 2>&1
-          sudo mkteaiso --profile=./gnome --output=/output/ --debug 2>&1
+          sudo mkteaiso --profile=./pardus --output=/output/ --debug 2>&1
 
 
       - uses: "marvinpinto/action-automatic-releases@latest"
