@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main, gnome ]
+    branches: [ main ]
   schedule:
     - cron: "0 0 * * *"
 
@@ -21,7 +21,10 @@ jobs:
               gcc wget curl unzip xz-utils zstd debootstrap -y
           sudo make
           sudo ln -s sid /usr/share/debootstrap/scripts/yirmibir
-          sudo ./mkteaiso --profile=../pardus --output=/output/ --debug 2>&1
+          git clone https://github.com/my-garbage-stuff/pardus-build -b main xfce
+          git clone https://github.com/my-garbage-stuff/pardus-build -b gnome gnome
+          sudo ./mkteaiso --profile=xfce --output=/output/ --debug 2>&1
+          sudo ./mkteaiso --profile=gnome --output=/output/ --debug 2>&1
 
 
       - uses: "marvinpinto/action-automatic-releases@latest"
@@ -32,7 +35,4 @@ jobs:
           title: "Auto build"
           files: |
             /output/*
-
-
-
 
