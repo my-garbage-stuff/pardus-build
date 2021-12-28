@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gnome ]
   schedule:
     - cron: "0 0 * * *"
 
