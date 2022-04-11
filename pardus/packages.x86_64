@@ -1,7 +1,7 @@
 #bootloader and gnupg
 grub-pc-bin
 grub-efi
-grub-efi-ia43-bin
+grub-efi-ia32-bin
 gnupg
 #kernel
 linux-image-amd64
