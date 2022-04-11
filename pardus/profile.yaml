@@ -13,7 +13,6 @@ packages:
 customize_airootfs_pre:
  - accept_nonfree.sh
 customize_airootfs:
-  - backports.sh
   - remove-systemd.sh
   - remove-java.sh
   - libreoffice-update.sh
