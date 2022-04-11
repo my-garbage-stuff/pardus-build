@@ -5,5 +5,5 @@ apt install elogind sysvinit-core sysv-rc -y --allow-remove-essential
 apt install -f
 apt full-upgrade -y
 apt install live-config live-boot pardus-installer -y
-apt purge pardus-power-marager -y
+apt purge pardus-power-manager -y
 apt autoremove -y
