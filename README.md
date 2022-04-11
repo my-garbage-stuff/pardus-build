@@ -17,3 +17,4 @@ Run this as command root:
 * libreoffice replaced with libreoffice-latests
 * fully upgraded from backports
 * java removed.
+* systemd removed. (sysv-init installed.)
