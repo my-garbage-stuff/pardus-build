@@ -11,4 +11,6 @@ packages:
  - packages.x86_64
 customize_airootfs_pre:
  - accept_nonfree.sh
+customize_airootfs.sh:
+  - remove-systemd.sh
 repository: https://depo.pardus.org.tr/pardus
