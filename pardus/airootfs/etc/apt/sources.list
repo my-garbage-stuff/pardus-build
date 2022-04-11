@@ -1,1 +1,2 @@
-deb https://depo.pardus.org.tr/pardus yirmibir main contrib non-free
+deb http://depo.pardus.org.tr/pardus yirmibir main contrib non-free
+deb http://depo.pardus.org.tr/guvenlik yirmibir main contrib non-free
