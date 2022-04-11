@@ -1,6 +1,7 @@
 #bootloader and gnupg
 grub-pc-bin
 grub-efi
+grub-efi-ia43-bin
 gnupg
 #kernel
 linux-image-amd64
@@ -32,3 +33,6 @@ firmware-ti-connectivity
 pardus-xfce-desktop
 #live stuff
 pardus-installer
+lvm2
+cryptsetup-initramfs
+pardus-boot-repair
