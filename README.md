@@ -12,3 +12,8 @@ Run this as command root:
 * Pardus power manager not working without systemd so removed.
 * Debian-installer missing (teaiso not support)
 * Plymouth not working good so removed.
+
+## Extras
+* libreoffice replaced with libreoffice-latests
+* fully upgraded from backports
+* java removed.
