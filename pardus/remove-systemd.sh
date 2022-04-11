@@ -4,5 +4,5 @@ fi
 apt install elogind sysvinit-core sysv-rc -y --allow-remove-essential
 apt install -f
 apt full-upgrade -y
-apt install live-config live-boot -y
+apt install live-config live-boot pardus-installer -y
 apt autoremove -y
