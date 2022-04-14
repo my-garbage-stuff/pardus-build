@@ -15,3 +15,4 @@ Run this as command root:
 * libreoffice replaced with libreoffice-latests
 * java removed.
 * linux kernel replaced with https://github.com/debian-kernel/linux
+* firefox-esr replaced with https://github.com/app-installer/firefox
