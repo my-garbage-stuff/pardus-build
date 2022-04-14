@@ -9,9 +9,7 @@ Run this as command root:
 * teaiso (https://gitlab.com/tearch-linux/applications-and-tools/teaiso)
 
 ## Issues
-* Pardus power manager not working without systemd so removed.
 * Debian-installer missing (teaiso not support)
-* Plymouth not working good so removed.
 
 ## Extras
 * libreoffice replaced with libreoffice-latests
