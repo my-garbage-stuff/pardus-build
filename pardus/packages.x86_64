@@ -4,7 +4,7 @@ grub-efi
 grub-efi-ia32-bin
 gnupg
 #kernel
-linux-image-amd64
+#linux-image-amd64
 #firmwares
 zd1211-firmware
 firmware-linux
