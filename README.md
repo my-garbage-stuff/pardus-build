@@ -17,3 +17,4 @@ Run this as command root:
 * libreoffice replaced with libreoffice-latests
 * java removed.
 * systemd removed. (sysv-init installed.)
+* linux kernel replaced with https://github.com/debian-kernel/linux
