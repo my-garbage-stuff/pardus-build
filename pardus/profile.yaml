@@ -15,6 +15,6 @@ customize_airootfs_pre:
 customize_airootfs:
   # - remove-systemd.sh
   - remove-java.sh
-  - libreoffice-update.sh
+  - package-updates.sh
   - replace-kernel.sh
 repository: https://depo.pardus.org.tr/pardus
