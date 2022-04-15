@@ -1,5 +1,5 @@
-link=$(wget -O - https://github.com/debian-kernel/linux/releases | grep "href" | grep "amd64.deb" | sed "s/.*href=\"//g;s/\".*//g")
-wget "https://github.com/$link" -O linux.deb
-dpkg -i linux.deb
-apt install -f -y
-rm -f linux.deb
+wget -O - https://liquorix.net/liquorix-keyring.gpg | apt-key add -
+echo "deb http://liquorix.net/debian stable main" > /etc/apt/sources.list.d/liquorix.list
+apt-get update -y
+apt-get install linux-image-liquorix-amd64 -y
+apt-get install linux-headers-liquorix-amd64 -y
