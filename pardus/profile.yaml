@@ -13,7 +13,6 @@ packages:
 customize_airootfs_pre:
  - accept_nonfree.sh
 customize_airootfs:
-  # - remove-systemd.sh
   - remove-java.sh
   - package-updates.sh
   - replace-kernel.sh

@@ -14,5 +14,5 @@ Run this as command root:
 ## Extras
 * libreoffice replaced with libreoffice-latests
 * java removed.
-* linux kernel replaced with https://github.com/debian-kernel/linux
+* linux kernel replaced with https://liquorix.net/
 * firefox-esr replaced with https://github.com/app-installer/firefox
