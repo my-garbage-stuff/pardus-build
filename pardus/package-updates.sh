@@ -1,5 +1,5 @@
 apt update
-apt install wget -y
+apt install wget bzip2 zenity -y
 apt full-upgrade -y
 apt purge libreoffice-common -y
 apt install libreoffice-latest -y
