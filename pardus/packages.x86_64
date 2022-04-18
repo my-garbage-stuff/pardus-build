@@ -3,6 +3,10 @@ grub-pc-bin
 grub-efi
 grub-efi-ia32-bin
 gnupg
+#live-boot stuff
+live-config
+live-boot
+user-setup
 #kernel
 #linux-image-amd64
 #firmwares
@@ -36,3 +40,4 @@ pardus-installer
 lvm2
 cryptsetup-initramfs
 pardus-boot-repair
+--no-install-recommands
