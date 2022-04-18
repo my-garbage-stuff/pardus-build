@@ -40,4 +40,3 @@ pardus-installer
 lvm2
 cryptsetup-initramfs
 pardus-boot-repair
---no-install-recommends
