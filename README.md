@@ -15,4 +15,4 @@ Run this as command root:
 * libreoffice replaced with libreoffice-latests
 * java removed.
 * linux kernel replaced with https://liquorix.net/
-* firefox-esr replaced with https://github.com/app-installer/firefox
+* firefox-esr replaced with librewolf
