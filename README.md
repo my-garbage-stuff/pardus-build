@@ -16,3 +16,4 @@ Run this as command root:
 * java removed.
 * linux kernel replaced with https://liquorix.net/
 * firefox-esr replaced with librewolf
+* journalctl destroyed
